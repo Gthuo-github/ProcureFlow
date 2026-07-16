@@ -1,0 +1,65 @@
+# Django Core
+Django>=5.0,<5.2
+djangorestframework>=3.14.0
+django-cors-headers>=4.3.1
+django-environ>=0.11.2
+
+# Database & ORM
+psycopg2-binary>=2.9.9
+
+# Authentication & Security
+djangorestframework-simplejwt>=5.3.1
+django-allauth>=0.63.0
+argon2-cffi>=23.1.0
+cryptography>=42.0.0
+
+# Redis & Caching
+redis>=5.0.1
+django-redis>=5.4.0
+
+# Celery & Background Tasks (optional for now)
+celery>=5.3.6
+django-celery-beat>=2.7.0
+django-celery-results>=2.5.1
+
+# API & Utilities
+requests>=2.31.0
+python-dotenv>=1.0.0
+Pillow>=10.4.0
+
+# Phone Number Validation
+phonenumbers>=8.13.0
+django-phonenumber-field>=7.3.0
+
+# Email & SMS (optional - install if needed)
+# sendgrid>=6.11.0
+# twilio>=8.12.0
+# africastalking>=1.2.6
+
+# Date/Time Utilities
+python-dateutil>=2.8.2
+pytz>=2024.1
+
+# Testing (optional - install for development)
+# pytest>=7.4.4
+# pytest-django>=4.7.0
+# pytest-cov>=4.1.0
+# factory-boy>=3.3.0
+# faker>=22.1.0
+
+# Code Quality (optional - install for development)
+# black>=24.1.1
+# flake8>=7.0.0
+# isort>=5.13.2
+
+# WSGI Server
+gunicorn>=21.2.0
+
+# Error tracking
+sentry-sdk>=1.19.0
+
+#API Documentation(Swagger/ReDoc)
+drf-spectacular>=0.28.0
+
+#Advanced filtering for queries
+django-filter>=23.2
